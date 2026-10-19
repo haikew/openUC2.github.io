@@ -30,11 +30,11 @@ This report covers three tests on the Frame 10: a 24 h long-run test with step-l
 
 **Results:**
 
-![24 h: position error along the X axis at the calibration slide, with the compensation zone and the lost-step events](encoder_test_report_images/position_error.png)
+![24 h: position error along the X axis at the calibration slide, with the compensation zone and the lost-step events](IMAGES/position_error.png)
 
 *Position error: X position of the stage at the calibration slide measured by the camera, relative to the first picture. Shaded band: compensation zone of ±7.8 µm (4 counts). Dashed lines: the 4 lost-step events.*
 
-![24 h: encoder error, encoder minus photo along the X axis](encoder_test_report_images/encoder_error.png)
+![24 h: encoder error, encoder minus photo along the X axis](IMAGES/encoder_error.png)
 
 *Encoder error: position reported by the encoder minus position measured by the camera (0 = the encoder saw the shift).*
 
@@ -47,11 +47,11 @@ This report covers three tests on the Frame 10: a 24 h long-run test with step-l
 
 **Results:**
 
-![12 h drift: shift of the photos against the first one](encoder_test_report_images/2_1_drift_shift.png)
+![12 h drift: shift of the photos against the first one](IMAGES/2_1_drift_shift.png)
 
 *Shift of the stage measured from the photos, relative to the first photo.*
 
-![12 h drift: linear encoder reading against the photo](encoder_test_report_images/2_2_drift_encoder.png)
+![12 h drift: linear encoder reading against the photo](IMAGES/2_2_drift_encoder.png)
 
 *Black dots: linear encoder reading (1.95 µm/count). Red line: x shift measured from the photos.*
 
@@ -68,7 +68,7 @@ This report covers three tests on the Frame 10: a 24 h long-run test with step-l
 
 **Results:**
 
-![Backlash of the X axis per slot and Y position, slow and fast](encoder_test_report_images/4_3_backlash.png)
+![Backlash of the X axis per slot and Y position, slow and fast](IMAGES/4_3_backlash.png)
 
 *Backlash at slots 2 and 4, each measured at an upper ("up") and a lower ("down") Y position, 10 rounds per run. Filled markers: measured from the image. Open markers: reported by the encoder.*
 
